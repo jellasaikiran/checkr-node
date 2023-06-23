@@ -29,7 +29,7 @@ const isAuth: RequestHandler = (
   if (!decodedToken) {
     throw new CustomError(NOT_AUTHENTICATED, 401);
   }
-  // req.recruiterId = decodedToken.recruiterId;
+  req.recruiterId = decodedToken.recruiterId;
   next();
 };
 

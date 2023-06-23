@@ -25,3 +25,10 @@ export const EMAIL = "email";
 export const PASSWORD = "password";
 export const NAME = "name";
 export const INVALID_CANDIDATE = "Invalid candidate ID"
+
+export const TEST_USER_ID = "abcd"
+export const TEST_USER_EMAIL = "test@example.com";
+export const TEST_USER_PASSWORD = "password123";
+export const TEST_USER_NAME = "testuser";
+export const DATABASE_ERROR = "Database error";
+export const TEST_MOCKED_TOKEN = "mockedToken";
