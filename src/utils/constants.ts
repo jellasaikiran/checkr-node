@@ -3,7 +3,7 @@ export const MONGO_PATH =
 
 export const PAGE_NOT_FOUND = "Page not found";
 export const USER_CREATED = "User created!";
-export const CANDIDATE_CREATED = "Candidate created!"
+export const CANDIDATE_CREATED = "Candidate created!";
 export const VALIDATION_FAILED = "Validation failed";
 export const USER_WITH_EMAIL_NOT_FOUND =
   "A user with provided email is not found.";
@@ -24,4 +24,25 @@ export const EMAIL_ADDRESS_ALREADY_EXISTS = "Email address already exists!";
 export const EMAIL = "email";
 export const PASSWORD = "password";
 export const NAME = "name";
-export const INVALID_CANDIDATE = "Invalid candidate ID"
+export const INVALID_CANDIDATE = "Invalid candidate ID";
+
+export const TEST_USER_ID = "abcd";
+export const TEST_USER_EMAIL = "test@example.com";
+export const TEST_USER_PASSWORD = "password123";
+export const TEST_USER_NAME = "testuser";
+export const DATABASE_ERROR = "Database error";
+export const TEST_MOCKED_TOKEN = "mockedToken";
+export const TEST_CANDIDATE_RESPONSE = [
+  {
+    name: "John Smith",
+    email: "John.smith@checkr.com",
+    dob: "1990-09-10 (26)",
+    phone: "(555) 555-5555",
+    location: "Barrouallie",
+    date: "2/22/2022",
+    zipcode: "94158",
+    socialSecurity: "XXX-XX-6789",
+    driverLicence: "FTEST1111 (CA)",
+    recruiterId: "{{recruiterId}}",
+  },
+];
